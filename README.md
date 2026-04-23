@@ -1,4 +1,4 @@
-<img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/f47d54d9-ca6e-4ba6-83d7-590b7bb9aee4" /># EasePark — Smart Parking Management System
+# EasePark — Smart Parking Management System
 
 A full-stack parking booking platform with secure OTP authentication, real-time slot management, integrated payments, and a complete audit trail for system transparency and security.
 
@@ -47,6 +47,7 @@ Urban parking systems often face:
 ---
 
 ## Screenshots
+<img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/f47d54d9-ca6e-4ba6-83d7-590b7bb9aee4" />
 <img width="1919" height="1020" alt="Screenshot 2026-03-29 224036" src="https://github.com/user-attachments/assets/ca4b0ea0-81c5-4cf0-9808-1916dde3b397" />
 <img width="1812" height="840" alt="Screenshot 2026-03-29 224024" src="https://github.com/user-attachments/assets/26743c16-aecf-4829-ad18-a16c9bd43260" />
 <img width="1919" height="1014" alt="Screenshot 2026-03-29 224014" src="https://github.com/user-attachments/assets/e9965560-5ccc-43e9-a640-3d0923519c4f" />
@@ -62,11 +63,12 @@ Urban parking systems often face:
 <img width="1919" height="1016" alt="Screenshot 2026-03-29 223206" src="https://github.com/user-attachments/assets/1908a2ac-3ab5-432e-952f-972727f7a56a" />
 <img width="1919" height="1016" alt="Screenshot 2026-03-29 223155" src="https://github.com/user-attachments/assets/56e9e37f-210a-423d-899d-06433eb616fe" />
 <img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/413699b3-e1de-480f-a14c-8921071910b0" />
-
-```md
-![Home](./screenshots/home.png)
-![Booking](./screenshots/booking.png)
-![Admin Dashboard](./screenshots/admin.png) and more...
+<img width="1919" height="1012" alt="Screenshot 2026-03-29 223948" src="https://github.com/user-attachments/assets/afa6fe1e-4d41-4184-a8d8-990f7fcc00bd" />
+<img width="1919" height="1012" alt="Screenshot 2026-03-29 223938" src="https://github.com/user-attachments/assets/3f040034-2ed0-4c3f-a931-2589cc00100f" />
+<img width="1919" height="1011" alt="Screenshot 2026-03-29 223921" src="https://github.com/user-attachments/assets/6f5eda96-1f5e-41ca-92b5-e300e06e92c0" />
+<img width="1919" height="1014" alt="Screenshot 2026-03-29 223408" src="https://github.com/user-attachments/assets/03a3b239-0e37-4764-8ceb-b3e8737df952" />
+<img width="1288" height="548" alt="Screenshot 2026-03-29 223346" src="https://github.com/user-attachments/assets/d5076168-86b5-4034-a0f8-0ad76fc8357e" />
+<img width="1919" height="1015" alt="Screenshot 2026-03-29 223326" src="https://github.com/user-attachments/assets/b5831f48-0ca3-447e-b158-7ef63a5b74a5" />
 
 ```
 
@@ -242,12 +244,7 @@ easepark/
 
 ---
 
-## License<img width="1919" height="1012" alt="Screenshot 2026-03-29 223948" src="https://github.com/user-attachments/assets/afa6fe1e-4d41-4184-a8d8-990f7fcc00bd" />
-<img width="1919" height="1012" alt="Screenshot 2026-03-29 223938" src="https://github.com/user-attachments/assets/3f040034-2ed0-4c3f-a931-2589cc00100f" />
-<img width="1919" height="1011" alt="Screenshot 2026-03-29 223921" src="https://github.com/user-attachments/assets/6f5eda96-1f5e-41ca-92b5-e300e06e92c0" />
-<img width="1919" height="1014" alt="Screenshot 2026-03-29 223408" src="https://github.com/user-attachments/assets/03a3b239-0e37-4764-8ceb-b3e8737df952" />
-<img width="1288" height="548" alt="Screenshot 2026-03-29 223346" src="https://github.com/user-attachments/assets/d5076168-86b5-4034-a0f8-0ad76fc8357e" />
-<img width="1919" height="1015" alt="Screenshot 2026-03-29 223326" src="https://github.com/user-attachments/assets/b5831f48-0ca3-447e-b158-7ef63a5b74a5" />
+## License
 
 
 This project is for educational and demonstration purposes.
