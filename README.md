@@ -47,28 +47,23 @@ Urban parking systems often face:
 ---
 
 ## Screenshots
-<img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/f47d54d9-ca6e-4ba6-83d7-590b7bb9aee4" />
-<img width="1919" height="1020" alt="Screenshot 2026-03-29 224036" src="https://github.com/user-attachments/assets/ca4b0ea0-81c5-4cf0-9808-1916dde3b397" />
-<img width="1812" height="840" alt="Screenshot 2026-03-29 224024" src="https://github.com/user-attachments/assets/26743c16-aecf-4829-ad18-a16c9bd43260" />
-<img width="1919" height="1014" alt="Screenshot 2026-03-29 224014" src="https://github.com/user-attachments/assets/e9965560-5ccc-43e9-a640-3d0923519c4f" />
-<img width="1914" height="1014" alt="Screenshot 2026-03-29 224003" src="https://github.com/user-attachments/assets/939eb917-655f-4f57-a219-fd42d2d0f3d6" />
-<img width="1919" height="1012" alt="Screenshot 2026-03-29 223948" src="https://github.com/user-attachments/assets/cedbcaba-71bf-4b24-9ef8-057e555132a6" />
-<img width="1919" height="1012" alt="Screenshot 2026-03-29 223938" src="https://github.com/user-attachments/assets/9d234948-ec28-418f-b349-995c00a0b8b1" />
-<img width="1919" height="1011" alt="Screenshot 2026-03-29 223921" src="https://github.com/user-attachments/assets/a49c2027-d763-402d-9466-5b27a1c552d6" />
-<img width="1919" height="1014" alt="Screenshot 2026-03-29 223408" src="https://github.com/user-attachments/assets/14e9cf3d-5882-4e19-809e-9cb216ad8e26" />
-<img width="1288" height="548" alt="Screenshot 2026-03-29 223346" src="https://github.com/user-attachments/assets/6ea8fcd6-8c6c-40c9-b02f-a9ede0f8e11e" />
-<img width="1919" height="1015" alt="Screenshot 2026-03-29 223326" src="https://github.com/user-attachments/assets/2e89d22c-6aa1-45ec-a0c9-8f68259e167e" />
-<img width="1919" height="1023" alt="Screenshot 2026-03-29 223237" src="https://github.com/user-attachments/assets/e06a1bd6-5277-4e37-990f-fa55714bc02e" />
-<img width="1919" height="1018" alt="Screenshot 2026-03-29 223219" src="https://github.com/user-attachments/assets/f3673e30-91da-4be7-b156-75e7847f56db" />
-<img width="1919" height="1016" alt="Screenshot 2026-03-29 223206" src="https://github.com/user-attachments/assets/1908a2ac-3ab5-432e-952f-972727f7a56a" />
-<img width="1919" height="1016" alt="Screenshot 2026-03-29 223155" src="https://github.com/user-attachments/assets/56e9e37f-210a-423d-899d-06433eb616fe" />
-<img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/413699b3-e1de-480f-a14c-8921071910b0" />
-<img width="1919" height="1012" alt="Screenshot 2026-03-29 223948" src="https://github.com/user-attachments/assets/afa6fe1e-4d41-4184-a8d8-990f7fcc00bd" />
-<img width="1919" height="1012" alt="Screenshot 2026-03-29 223938" src="https://github.com/user-attachments/assets/3f040034-2ed0-4c3f-a931-2589cc00100f" />
-<img width="1919" height="1011" alt="Screenshot 2026-03-29 223921" src="https://github.com/user-attachments/assets/6f5eda96-1f5e-41ca-92b5-e300e06e92c0" />
-<img width="1919" height="1014" alt="Screenshot 2026-03-29 223408" src="https://github.com/user-attachments/assets/03a3b239-0e37-4764-8ceb-b3e8737df952" />
-<img width="1288" height="548" alt="Screenshot 2026-03-29 223346" src="https://github.com/user-attachments/assets/d5076168-86b5-4034-a0f8-0ad76fc8357e" />
-<img width="1919" height="1015" alt="Screenshot 2026-03-29 223326" src="https://github.com/user-attachments/assets/b5831f48-0ca3-447e-b158-7ef63a5b74a5" />
+## 📸 Screenshots
+
+![Screenshot 1](https://github.com/user-attachments/assets/f47d54d9-ca6e-4ba6-83d7-590b7bb9aee4)
+![Screenshot 2](https://github.com/user-attachments/assets/ca4b0ea0-81c5-4cf0-9808-1916dde3b397)
+![Screenshot 3](https://github.com/user-attachments/assets/26743c16-aecf-4829-ad18-a16c9bd43260)
+![Screenshot 4](https://github.com/user-attachments/assets/e9965560-5ccc-43e9-a640-3d0923519c4f)
+![Screenshot 5](https://github.com/user-attachments/assets/939eb917-655f-4f57-a219-fd42d2d0f3d6)
+![Screenshot 6](https://github.com/user-attachments/assets/cedbcaba-71bf-4b24-9ef8-057e555132a6)
+![Screenshot 7](https://github.com/user-attachments/assets/9d234948-ec28-418f-b349-995c00a0b8b1)
+![Screenshot 8](https://github.com/user-attachments/assets/a49c2027-d763-402d-9466-5b27a1c552d6)
+![Screenshot 9](https://github.com/user-attachments/assets/14e9cf3d-5882-4e19-809e-9cb216ad8e26)
+![Screenshot 10](https://github.com/user-attachments/assets/6ea8fcd6-8c6c-40c9-b02f-a9ede0f8e11e)
+![Screenshot 11](https://github.com/user-attachments/assets/2e89d22c-6aa1-45ec-a0c9-8f68259e167e)
+![Screenshot 12](https://github.com/user-attachments/assets/e06a1bd6-5277-4e37-990f-fa55714bc02e)
+![Screenshot 13](https://github.com/user-attachments/assets/f3673e30-91da-4be7-b156-75e7847f56db)
+![Screenshot 14](https://github.com/user-attachments/assets/1908a2ac-3ab5-432e-952f-972727f7a56a)
+![Screenshot 15](https://github.com/user-attachments/assets/56e9e37f-210a-423d-899d-06433eb616fe)
 
 ```
 
