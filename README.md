@@ -1,115 +1,179 @@
-# EasePark — Smart Parking Management System
+<img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/f47d54d9-ca6e-4ba6-83d7-590b7bb9aee4" /># EasePark — Smart Parking Management System
 
-A full-stack parking booking platform with OTP auth, Google Maps, Razorpay payments, concurrency-safe bookings, and a complete audit log security trail.
+A full-stack parking booking platform with secure OTP authentication, real-time slot management, integrated payments, and a complete audit trail for system transparency and security.
+
+---
+
+## Why this project?
+
+Urban parking systems often face:
+
+* Overbooking due to concurrency issues
+* Lack of secure authentication
+* Poor visibility into system actions
+
+**EasePark solves this with:**
+
+* Concurrency-safe slot booking
+* OTP-based secure authentication
+* Integrated digital payments
+* Full audit logging for accountability
+
+---
+
+## Features
+
+*  OTP-based authentication with JWT sessions
+*  Real-time parking slot availability
+*  Concurrency-safe booking (`SELECT FOR UPDATE`)
+*  Online payments via Razorpay
+*  Location-based parking using Google Maps
+*  Admin dashboard with analytics
+*  Full audit trail for all critical actions
+*  Rate limiting & secure password handling
 
 ---
 
 ## Tech Stack
 
-| Layer      | Technology                        |
-|------------|-----------------------------------|
-| Frontend   | React 18, React Router v6         |
-| Backend    | Node.js, Express.js               |
-| Database   | MySQL 8+                          |
-| Auth       | OTP (Email) + JWT                 |
-| Payments   | Razorpay                          |
-| Maps       | Google Maps API                   |
-| Security   | bcryptjs, express-rate-limit, audit logs |
+* **Frontend:** React 18, React Router v6
+* **Backend:** Node.js, Express.js
+* **Database:** MySQL 8+
+* **Authentication:** OTP + JWT
+* **Payments:** Razorpay
+* **Maps:** Google Maps API
+* **Security:** bcrypt, express-rate-limit
 
 ---
 
-## Quick Start
+## Screenshots
+<img width="1919" height="1020" alt="Screenshot 2026-03-29 224036" src="https://github.com/user-attachments/assets/ca4b0ea0-81c5-4cf0-9808-1916dde3b397" />
+<img width="1812" height="840" alt="Screenshot 2026-03-29 224024" src="https://github.com/user-attachments/assets/26743c16-aecf-4829-ad18-a16c9bd43260" />
+<img width="1919" height="1014" alt="Screenshot 2026-03-29 224014" src="https://github.com/user-attachments/assets/e9965560-5ccc-43e9-a640-3d0923519c4f" />
+<img width="1914" height="1014" alt="Screenshot 2026-03-29 224003" src="https://github.com/user-attachments/assets/939eb917-655f-4f57-a219-fd42d2d0f3d6" />
+<img width="1919" height="1012" alt="Screenshot 2026-03-29 223948" src="https://github.com/user-attachments/assets/cedbcaba-71bf-4b24-9ef8-057e555132a6" />
+<img width="1919" height="1012" alt="Screenshot 2026-03-29 223938" src="https://github.com/user-attachments/assets/9d234948-ec28-418f-b349-995c00a0b8b1" />
+<img width="1919" height="1011" alt="Screenshot 2026-03-29 223921" src="https://github.com/user-attachments/assets/a49c2027-d763-402d-9466-5b27a1c552d6" />
+<img width="1919" height="1014" alt="Screenshot 2026-03-29 223408" src="https://github.com/user-attachments/assets/14e9cf3d-5882-4e19-809e-9cb216ad8e26" />
+<img width="1288" height="548" alt="Screenshot 2026-03-29 223346" src="https://github.com/user-attachments/assets/6ea8fcd6-8c6c-40c9-b02f-a9ede0f8e11e" />
+<img width="1919" height="1015" alt="Screenshot 2026-03-29 223326" src="https://github.com/user-attachments/assets/2e89d22c-6aa1-45ec-a0c9-8f68259e167e" />
+<img width="1919" height="1023" alt="Screenshot 2026-03-29 223237" src="https://github.com/user-attachments/assets/e06a1bd6-5277-4e37-990f-fa55714bc02e" />
+<img width="1919" height="1018" alt="Screenshot 2026-03-29 223219" src="https://github.com/user-attachments/assets/f3673e30-91da-4be7-b156-75e7847f56db" />
+<img width="1919" height="1016" alt="Screenshot 2026-03-29 223206" src="https://github.com/user-attachments/assets/1908a2ac-3ab5-432e-952f-972727f7a56a" />
+<img width="1919" height="1016" alt="Screenshot 2026-03-29 223155" src="https://github.com/user-attachments/assets/56e9e37f-210a-423d-899d-06433eb616fe" />
+<img width="1919" height="1017" alt="Screenshot 2026-03-29 223106" src="https://github.com/user-attachments/assets/413699b3-e1de-480f-a14c-8921071910b0" />
 
-### 1. Database Setup
+```md
+![Home](./screenshots/home.png)
+![Booking](./screenshots/booking.png)
+![Admin Dashboard](./screenshots/admin.png) and more...
+
+```
+
+## ⚙️ Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/easepark.git
+cd easepark
+```
+
+### 2. Database Setup
 
 ```bash
 mysql -u root -p < backend/config/schema.sql
 ```
 
-### 2. Backend
+### 3. Backend
 
 ```bash
 cd backend
 npm install
-cp .env.example .env       # Fill in your credentials
-npm run dev                # Starts on http://localhost:5000
+cp .env.example .env
+npm run dev
 ```
 
-### 3. Frontend
+### 4. Frontend
 
 ```bash
 cd frontend
 npm install
-cp .env.example .env       # Fill in your API keys
-npm start                  # Starts on http://localhost:3000
+cp .env.example .env
+npm start
 ```
 
-### 4. Recommended Production / College Network Setup
+* Frontend → [http://localhost:3000](http://localhost:3000)
+* Backend → [http://localhost:5000](http://localhost:5000)
 
-To make the app more reliable on restrictive or low-quality networks:
+---
 
-1. Build the frontend:
+## Deployment
+
+### Recommended (Production Setup)
 
 ```bash
 cd frontend
 npm run build
 ```
 
-2. In `backend/.env`, use:
+Update backend `.env`:
 
 ```env
 NODE_ENV=production
 HOST=0.0.0.0
 PORT=5000
 SERVE_FRONTEND=true
-ALLOW_LAN_ORIGINS=false
 ```
 
-3. Start only the backend:
+Start backend:
 
 ```bash
 cd backend
 npm start
 ```
 
-The backend will serve the React build and the frontend will call the API using the same origin (`/api`). This avoids many CORS and blocked-port issues on college Wi-Fi and mobile hotspots.
+✔ Frontend served from backend
+✔ No CORS issues
+✔ Works on restrictive networks
 
 ---
 
-## Environment Variables
+## Security Highlights
 
-### Backend (`backend/.env`)
+### Audit Logging
 
-| Variable              | Description                             |
-|-----------------------|-----------------------------------------|
-| `HOST`                | Bind address (`0.0.0.0` for LAN/device access) |
-| `DB_HOST`             | MySQL host (default: localhost)         |
-| `DB_USER`             | MySQL username                          |
-| `DB_PASSWORD`         | MySQL password                          |
-| `DB_NAME`             | Database name (easepark_db)             |
-| `JWT_SECRET`          | Secret key for JWT signing              |
-| `RAZORPAY_KEY_ID`     | Razorpay test/live key ID               |
-| `RAZORPAY_KEY_SECRET` | Razorpay secret                         |
-| `SMTP_HOST`           | SMTP host for OTP email                 |
-| `SMTP_USER`           | SMTP username/email                     |
-| `SMTP_PASS`           | SMTP password / app password            |
-| `SERVE_FRONTEND`      | Serve `frontend/build` from Express     |
-| `ALLOW_LAN_ORIGINS`   | Allow local/LAN browser origins in dev  |
+* Tracks every sensitive action
+* Stores user, IP, action, and data changes
+* Enables full system traceability
 
-### Frontend (`frontend/.env`)
+### OTP Authentication
 
-| Variable                      | Description                    |
-|-------------------------------|--------------------------------|
-| `REACT_APP_API_URL`           | Backend API base URL. Optional if frontend and backend share the same origin |
-| `REACT_APP_GOOGLE_MAPS_KEY`   | Google Maps JavaScript API key |
-| `REACT_APP_RAZORPAY_KEY_ID`   | Razorpay key ID (same as backend) |
+* Hashed OTP storage (bcrypt)
+* Expiry-based validation
+* Rate-limited requests
 
-### Network Notes
+### Authorization
 
-- For device testing on the same Wi-Fi, run the backend with `HOST=0.0.0.0`.
-- Add your laptop IP based frontend URL to `FRONTEND_URLS` when using React dev server on another device.
-- For production or college networks, prefer serving the frontend from the backend or behind Nginx on the same domain.
-- Prefer HTTPS on standard ports (`443`) instead of exposing custom ports like `3000` and `5000`.
+* Role-based access (`admin` / `user`)
+* Backend-enforced route protection
+* JWT session handling
+
+### Payment Handling (Key Feature)
+
+* Handles incomplete payments safely
+* Automatically releases locked slots
+* Logs all cancellations for audit
+
+---
+
+## System Design Highlights
+
+* Concurrency control using **SQL row locking**
+* Atomic booking + slot allocation
+* Scalable REST API architecture
+* Modular backend (controllers, middleware, services)
+* Separation of frontend and backend concerns
 
 ---
 
@@ -118,112 +182,75 @@ The backend will serve the React build and the frontend will call the API using 
 ```
 easepark/
 ├── backend/
-│   ├── config/
-│   │   ├── db.js              MySQL connection pool
-│   │   ├── razorpay.js        Razorpay instance
-│   │   └── schema.sql         Full DB schema + seed
-│   ├── controllers/
-│   │   ├── authController.js       OTP send/verify, JWT
-│   │   ├── bookingController.js    SELECT FOR UPDATE concurrency
-│   │   ├── paymentController.js    Razorpay + silent cancellation
-│   │   ├── parkingController.js    CRUD for parking locations
-│   │   ├── slotController.js       CRUD for slots
-│   │   └── auditController.js      Audit log queries
-│   ├── middleware/
-│   │   ├── auth.js            JWT verify + role guard
-│   │   └── rateLimiter.js     OTP + API rate limiting
-│   ├── routes/                All Express route files
-│   ├── utils/
-│   │   ├── auditLogger.js     Central audit log writer
-│   │   ├── emailService.js    Nodemailer OTP sender
-│   │   └── response.js        Standardised JSON responses
-│   └── server.js              Express app entry point
+│   ├── config/        # DB + payment config
+│   ├── controllers/   # Business logic
+│   ├── middleware/    # Auth & rate limiting
+│   ├── routes/        # API routes
+│   ├── utils/         # Helpers (audit, email)
+│   └── server.js
 │
 └── frontend/
     └── src/
-        ├── context/AuthContext.js     JWT + user state
-        ├── services/api.js            All Axios API calls
-        ├── pages/
-        │   ├── auth/Login.js          Phone/email input
-        │   ├── auth/OtpVerify.js      6-box OTP input
-        │   ├── user/Home.js           Map + parking list
-        │   ├── user/ParkingDetail.js  Slot grid picker
-        │   ├── user/BookingPage.js    Duration + confirm
-        │   ├── user/PaymentPage.js    Razorpay checkout
-        │   ├── user/Dashboard.js      Booking history
-        │   ├── admin/AdminDashboard.js  Stats + recent bookings
-        │   ├── admin/AdminParkings.js   Parking CRUD
-        │   ├── admin/AdminSlots.js      Slot CRUD + bulk add
-        │   ├── admin/AdminBookings.js   All bookings + cancel
-        │   └── admin/AuditLogs.js       Security audit trail
-        └── components/common/AppLayout.js  Sidebar layout
+        ├── pages/     # User & admin screens
+        ├── context/   # Auth state
+        ├── services/  # API calls
+        └── components/
 ```
 
 ---
 
-## Security Features
+## API Overview
 
-### Audit Logs
-Every sensitive action is written to the `audit_logs` table with:
-- **User ID & email** — who performed the action
-- **IP address** — where the request originated
-- **Action** — one of 25+ typed constants (e.g. `PAYMENT_CANCELLED`, `ROLE_VIOLATION`)
-- **Entity** — which record was affected (type + ID)
-- **Old/New values** — JSON diff for data changes
-- **Status** — `success`, `failure`, or `warning`
-
-Admins can view, filter, and paginate audit logs in the `/admin/audit-logs` UI.
-
-### OTP Security
-- OTPs are bcrypt-hashed before storage — never stored in plain text
-- 5-minute expiry enforced server-side
-- Max 3 attempts per OTP; account locked until new OTP requested
-- Rate limited to 5 OTP requests per IP per hour
-
-### JWT
-- Role embedded in token (`admin` / `user`)
-- Server-side role verification on every admin route — frontend role is never trusted
-- 401 → automatic redirect to login
-
-### Payment Cancellation (Key Feature)
-When a user closes the Razorpay modal without paying:
-1. Frontend calls `POST /payments/handle-cancellation` **silently** (fire-and-forget)
-2. Backend releases the slot (`is_booked = 0`) atomically
-3. Booking marked `cancelled` internally
-4. Audit log entry written with action `PAYMENT_CANCELLED`
-5. Frontend gets `200 OK` — **no error message, no redirect, no toast**
-6. User stays on the Payment page and can retry
+| Method | Endpoint                     | Description            |
+| ------ | ---------------------------- | ---------------------- |
+| POST   | `/api/auth/send-otp`         | Send OTP               |
+| POST   | `/api/auth/verify-otp`       | Verify OTP             |
+| GET    | `/api/parkings`              | List parking locations |
+| POST   | `/api/bookings/book-slot`    | Reserve slot           |
+| POST   | `/api/payments/create-order` | Create payment         |
+| POST   | `/api/payments/verify`       | Verify payment         |
+| GET    | `/api/admin/dashboard`       | Admin stats            |
 
 ---
 
-## API Reference
+## Security Note
 
-| Method | Endpoint                          | Auth   | Description                              |
-|--------|-----------------------------------|--------|------------------------------------------|
-| POST   | /api/auth/send-otp               | Public | Send OTP to email/phone                  |
-| POST   | /api/auth/verify-otp             | Public | Verify OTP, return JWT                   |
-| GET    | /api/auth/me                     | User   | Get current user                         |
-| GET    | /api/parkings                    | Public | List all parking locations               |
-| POST   | /api/parkings                    | Admin  | Create parking                           |
-| GET    | /api/slots?parking_id=           | User   | Get slots for a parking                  |
-| POST   | /api/slots                       | Admin  | Add slot                                 |
-| POST   | /api/bookings/book-slot          | User   | Reserve slot (SELECT FOR UPDATE)         |
-| GET    | /api/bookings/my-bookings        | User   | Paginated booking history                |
-| GET    | /api/bookings/all                | Admin  | All bookings                             |
-| POST   | /api/bookings/:id/cancel         | User   | Cancel booking + release slot            |
-| POST   | /api/payments/create-order       | User   | Create Razorpay order                    |
-| POST   | /api/payments/verify             | User   | Verify signature, confirm booking        |
-| POST   | /api/payments/handle-cancellation| User   | Silent slot release on modal dismiss     |
-| GET    | /api/admin/dashboard             | Admin  | Stats + recent bookings                  |
-| GET    | /api/admin/audit-logs            | Admin  | Paginated, filtered audit trail          |
+* This project is configured for development/demo use
+* For production:
+
+  * Use HTTPS
+  * Secure environment variables
+  * Apply strict database and API access controls
 
 ---
 
-## Default Admin Account
+## Highlights
 
-After running `schema.sql`, an admin user is seeded:
+* Built a **secure full-stack system** with real-world payment integration
+* Implemented **concurrency-safe booking logic**
+* Designed **audit logging for system transparency**
+* Solved real-world parking management challenges
 
-- **Email:** `admin@easepark.com`
-- **Role:** admin
+---
 
-Send an OTP to this email to log in as admin.
+## Future Improvements
+
+* Live parking availability via IoT sensors
+* Mobile app (React Native)
+* Dynamic pricing based on demand
+* Reservation expiry timers
+
+---
+
+## License<img width="1919" height="1012" alt="Screenshot 2026-03-29 223948" src="https://github.com/user-attachments/assets/afa6fe1e-4d41-4184-a8d8-990f7fcc00bd" />
+<img width="1919" height="1012" alt="Screenshot 2026-03-29 223938" src="https://github.com/user-attachments/assets/3f040034-2ed0-4c3f-a931-2589cc00100f" />
+<img width="1919" height="1011" alt="Screenshot 2026-03-29 223921" src="https://github.com/user-attachments/assets/6f5eda96-1f5e-41ca-92b5-e300e06e92c0" />
+<img width="1919" height="1014" alt="Screenshot 2026-03-29 223408" src="https://github.com/user-attachments/assets/03a3b239-0e37-4764-8ceb-b3e8737df952" />
+<img width="1288" height="548" alt="Screenshot 2026-03-29 223346" src="https://github.com/user-attachments/assets/d5076168-86b5-4034-a0f8-0ad76fc8357e" />
+<img width="1919" height="1015" alt="Screenshot 2026-03-29 223326" src="https://github.com/user-attachments/assets/b5831f48-0ca3-447e-b158-7ef63a5b74a5" />
+
+
+This project is for educational and demonstration purposes.
+
+---
+
