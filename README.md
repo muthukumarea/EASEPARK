@@ -4,7 +4,7 @@ A full-stack parking booking platform with OTP auth, Google Maps, Razorpay payme
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology                        |
 |------------|-----------------------------------|
@@ -18,7 +18,7 @@ A full-stack parking booking platform with OTP auth, Google Maps, Razorpay payme
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Database Setup
 
@@ -76,7 +76,7 @@ The backend will serve the React build and the frontend will call the API using 
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 ### Backend (`backend/.env`)
 
@@ -113,7 +113,7 @@ The backend will serve the React build and the frontend will call the API using 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 easepark/
@@ -161,7 +161,7 @@ easepark/
 
 ---
 
-## 🔐 Security Features
+## Security Features
 
 ### Audit Logs
 Every sensitive action is written to the `audit_logs` table with:
@@ -196,7 +196,7 @@ When a user closes the Razorpay modal without paying:
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 | Method | Endpoint                          | Auth   | Description                              |
 |--------|-----------------------------------|--------|------------------------------------------|
@@ -219,7 +219,7 @@ When a user closes the Razorpay modal without paying:
 
 ---
 
-## 🎯 Default Admin Account
+## Default Admin Account
 
 After running `schema.sql`, an admin user is seeded:
 
