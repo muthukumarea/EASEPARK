@@ -1,4 +1,4 @@
-# 🅿️ EasePark 2.0 — Smart Parking Management System
+# EasePark — Smart Parking Management System
 
 A full-stack parking booking platform with OTP auth, Google Maps, Razorpay payments, concurrency-safe bookings, and a complete audit log security trail.
 
